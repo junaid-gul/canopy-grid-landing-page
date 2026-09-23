@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Canopy — Field survey software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class=" container header">
+        <a href="#" class="logo">Canopy</a>
+        <nav class="nav">
+          <a href="#" class="nav-item">Product</a>
+          <a href="#" class="nav-item">Field Kit</a>
+          <a href="#" class="nav-item">Pricing</a>
+          <a href="#" class="nav-item">Login</a>
+        </nav>
+
+        <a href="#" class="btn btn-primary">Start Survey</a>
+      </div>
+    </header>
+
+    <!--
+  Reference copy for each section — use it, but choose your own HTML elements
+  and class names. Compare against solution/ only after you've tried each part.
+-->
+
+    <!-- TODO: Header — a logo on the left, nav links, and a "Start a survey" button,
+     all in one row that keeps its height fixed as the window resizes.
+     Logo: "Canopy"  Nav: Product / Field kit / Pricing / Log in -->
+
+    <!-- TODO: Hero — a two-column section. Left: headline "Every transect, tagged
+     and mapped", a supporting sentence, and two buttons ("Start a survey",
+     "Watch a demo"). Right: a small "live stats" card with three sub-parts
+     stacked vertically: a title row ("Today's transects" + a "Live" badge),
+     a row of 3 small stat boxes (Sites: 3, Species: 47, Logged: 6.5h), and a
+     short list of 4 day-rows (Mon 12, Tue 21, Wed 17, Thu 28) where each row
+     is itself a 3-column grid: a day label, a horizontal bar, and a number.
+     The bar's fill width can just be a plain child div sized with inline
+     CSS — the point here is the grid structure around it, not the bar. -->
+
+    <!-- TODO (the hard one): "Field dashboard" section — a single grid with FIVE
+     areas of different shapes, laid out with grid-template-areas:
+       - a big "Survey sites" panel (top-left, roughly 2 columns × 2 rows)
+         containing its OWN small nested grid of dots representing site
+         locations, each dot placed in a specific cell
+       - a "Legend" panel (top-right, narrower)
+       - a "Recent transects" panel (right side, roughly 2 rows tall) built
+         as a mini table: a header row of 3 columns, then 3 data rows using
+         the same 3-column grid (Site / Species / Date)
+       - a "Conditions" panel and a "Quick actions" panel side by side along
+         the bottom-left
+     Sketch the area shapes on paper first, then write the
+     grid-template-areas string before touching the HTML. -->
+
+    <!-- TODO: Feature cards — six cards in a grid that wraps to fewer columns as
+     the window narrows, WITHOUT a media query. Cards: Offline capture, GPS
+     auto-tag, Photo vouchers, Species matching, Team sync, Export to GIS
+     (each needs a one-line description of your own). -->
+
+    <!-- TODO: Stats band — four numbers in an even row: 4,120 sites surveyed /
+     912 species logged / 38,600 hours in the field / 210 research teams. -->
+
+    <!-- TODO: "Why Canopy" bento section — one large panel (about twice the width
+     and twice the height of the others) titled "Built for the field, not the
+     office", plus four smaller panels: Waterproof by design, 10-hour battery,
+     Standards compliant, Crew permissions. -->
+
+    <!-- TODO: Field notes — a main column with three note entries (each has a
+     small date block and a title + short text) next to a narrower sidebar
+     containing a wrapping grid of tag pills and a small newsletter box. -->
+
+    <!-- TODO: Footer — a wide brand/tagline column plus three link columns
+     (Product, Resources, Company), with a bottom bar (copyright + legal
+     links) spanning the full width underneath. -->
+  </body>
+</html>
