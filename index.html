@@ -13,7 +13,7 @@
   </head>
   <body>
     <header class="site-header">
-      <div class=" container header">
+      <div class="container header">
         <a href="#" class="logo">Canopy</a>
         <nav class="nav">
           <a href="#" class="nav-item">Product</a>
@@ -25,6 +25,326 @@
         <a href="#" class="btn btn-primary">Start Survey</a>
       </div>
     </header>
+
+    <main class="main-wraper">
+      <div class="hero-section container">
+        <div class="left-side-hero">
+          <h1>Every transect, tagged and mapped</h1>
+          <p>
+            Canopy turns paper field notebooks into structured, GPS-tagged
+            records your whole research team can search — even offline, three
+            hours from a signal.
+          </p>
+          <div class="hero-section-btn">
+            <a href="#" class="btn btn-primary">Start a survey</a>
+            <a href="#" class="btn btn-ghost">Watch a demo</a>
+          </div>
+        </div>
+
+        <div class="right-side-hero-pannel">
+          <div class="pannl-head">
+            <span>Today's transects</span>
+            <span class="badge">Live</span>
+          </div>
+          <div class="pannel-stats">
+            <div class="stat">
+              <strong>3</strong>
+              <span>Sites</span>
+            </div>
+            <div class="stat">
+              <strong>47</strong>
+              <span>Species </span>
+            </div>
+            <div class="stat">
+              <strong>6.5h</strong>
+              <span>Logged</span>
+            </div>
+          </div>
+
+          <div class="bar-list">
+            <div class="bar-row">
+              <span>Mon</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="--val: 40%"></div>
+              </div>
+              <span>12</span>
+            </div>
+            <div class="bar-row">
+              <span>Tue</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="--val: 70%"></div>
+              </div>
+              <span>21</span>
+            </div>
+            <div class="bar-row">
+              <span>Wed</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="--val: 55%"></div>
+              </div>
+              <span>17</span>
+            </div>
+            <div class="bar-row">
+              <span>Thu</span>
+              <div class="bar-track">
+                <div class="bar-fill" style="--val: 90%"></div>
+              </div>
+              <span>28</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container dashboard">
+        <h2>Field dashboard</h2>
+        <div class="dashboard-grid">
+          <div class="survey-item item">
+            <p>Survey Site</p>
+            <div class="map-grid">
+              <span class="dot" style="grid-area: 2/3"></span>
+              <span class="dot hit" style="grid-area: 3/5"></span>
+              <span class="dot" style="grid-area: 4/2"></span>
+              <span class="dot" style="grid-area: 1/7"></span>
+              <span class="dot hit" style="grid-area: 5/6"></span>
+            </div>
+          </div>
+          <div class="legend-item item">
+            <p>Legend</p>
+            <ul>
+              <li>Active Site</li>
+              <li>New this weeek</li>
+            </ul>
+          </div>
+          <div class="condition-item item">
+            <p>Conditions</p>
+            <span>14°C, light rain</span>
+          </div>
+          <div class="quick-action item">
+            <p>Quick actions</p>
+            <ul>
+              <li>New survey</li>
+              <li>Import data</li>
+            </ul>
+          </div>
+          <div class="recent-transcet item">
+            <p>Recent transects</p>
+            <div class="recent-grid">
+              <div class="t-head">
+                <span>Site</span><span>Species</span><span>Date</span>
+              </div>
+              <div class="t-row">
+                <span>Site 12</span><span>9</span><span>Mar 14</span>
+              </div>
+              <div class="t-row">
+                <span>Site 07</span><span>14</span><span>Mar 09</span>
+              </div>
+              <div class="t-row">
+                <span>Site 03</span><span>6</span><span>Feb 27</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features container">
+        <div class="container feature-grid">
+          <div class="card">
+            <div class="mark">⬡</div>
+            <h3>Offline capture</h3>
+            <p>
+              Log observations with no signal; everything syncs once you're back
+              in range.
+            </p>
+          </div>
+          <div class="card">
+            <div class="mark">⊙</div>
+            <h3>GPS auto-tag</h3>
+            <p>
+              Every entry is stamped with coordinates and elevation
+              automatically.
+            </p>
+          </div>
+          <div class="card">
+            <div class="mark">▣</div>
+            <h3>Photo vouchers</h3>
+            <p>
+              Attach specimen photos directly to a record for later
+              verification.
+            </p>
+          </div>
+          <div class="card">
+            <div class="mark">≡</div>
+            <h3>Species matching</h3>
+            <p>Autocomplete against a regional checklist as your team types.</p>
+          </div>
+          <div class="card">
+            <div class="mark">⇄</div>
+            <h3>Team sync</h3>
+            <p>
+              See what the rest of the crew logged the moment you're back
+              online.
+            </p>
+          </div>
+          <div class="card take-space">
+            <div class="mark">⇲</div>
+            <h3>Export to GIS</h3>
+            <p>Pull a survey straight into QGIS or ArcGIS as a shapefile.</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <div>
+            <h3>4,120</h3>
+            <span>sites surveyed</span>
+          </div>
+          <div>
+            <h3>912</h3>
+            <span>species logged</span>
+          </div>
+          <div>
+            <h3>38,600</h3>
+            <span>hours in the field</span>
+          </div>
+          <div>
+            <h3>210</h3>
+            <span>research teams</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="bento">
+        <div class="container bento-grid">
+          <div class="bento-card expand">
+            <h3>Built for the field, not the office</h3>
+            <p>
+              Rugged offline-first design, glare-readable screens, and a
+              one-handed logging flow.
+            </p>
+          </div>
+          <div class="bento-card">
+            <h4>Waterproof by design</h4>
+            <p>Runs the same in drizzle as in a dry lab.</p>
+          </div>
+          <div class="bento-card">
+            <h4>Waterproof by design</h4>
+            <p>Runs the same in drizzle as in a dry lab.</p>
+          </div>
+          <div class="bento-card">
+            <h4>Waterproof by design</h4>
+            <p>Runs the same in drizzle as in a dry lab.</p>
+          </div>
+          <div class="bento-card">
+            <h4>Waterproof by design</h4>
+            <p>Runs the same in drizzle as in a dry lab.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="notes">
+        <div class="container notes-grid">
+          <div>
+            <div class="section-head"><h2>From the field notes</h2></div>
+            <div class="note-list">
+              <div class="note">
+                <div class="date">MAR<br />14</div>
+                <div>
+                  <h3>Return of the marbled salamander</h3>
+                  <p>
+                    First sighting at Site 12 in three seasons, logged with two
+                    photo vouchers.
+                  </p>
+                </div>
+              </div>
+              <div class="note">
+                <div class="date">MAR<br />09</div>
+                <div>
+                  <h3>A wet spring changes the transect plan</h3>
+                  <p>
+                    Flooded lowland routes pushed the crew to reroute two survey
+                    days.
+                  </p>
+                </div>
+              </div>
+              <div class="note">
+                <div class="date">FEB<br />27</div>
+                <div>
+                  <h3>Training day: GPS drift in canopy cover</h3>
+                  <p>
+                    Notes on correcting for signal loss under dense tree cover.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside class="sidebar">
+            <div>
+              <h3 class="sidebar-title">Browse by tag</h3>
+              <div class="tag-grid">
+                <span class="tag">Amphibians</span><span class="tag">Birds</span
+                ><span class="tag">GPS</span><span class="tag">Training</span
+                ><span class="tag">Wetlands</span><span class="tag">Gear</span>
+              </div>
+            </div>
+            <div class="newsletter">
+              <h4>Field dispatch</h4>
+              <p>One email a month from the field.</p>
+              <input placeholder="you@fieldstation.org" /><a
+                href="#"
+                class="btn btn-primary btn-block"
+                >Subscribe</a
+              >
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      
+    </main>
+   <footer>
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <div class="logo">Canopy</div>
+      <p class="tagline">
+        Field data software for ecological research teams.
+      </p>
+    </div>
+
+    <div>
+      <h4>Product</h4>
+      <ul>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Field kit</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Resources</h4>
+      <ul>
+        <li>Docs</li>
+        <li>Case studies</li>
+        <li>Community</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Company</h4>
+      <ul>
+        <li>About</li>
+        <li>Careers</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div class="foot-bottom">
+      <span>© 2026 Canopy</span>
+      <span>Privacy · Terms</span>
+    </div>
+
+  </div>
+</footer>
 
     <!--
   Reference copy for each section — use it, but choose your own HTML elements
